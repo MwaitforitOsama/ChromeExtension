@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Processor Extension</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="lib/PapaParse-5.0.2/papaparse.min.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Fix Vehicles Details Report</h1>
+    <label for="fileInput" class="upload-label">
+      <img src="upload_icon.svg" alt="Upload Icon" class="upload-icon">
+      Upload CSV
+    </label>
+    <input type="file" id="fileInput" />
+    <p id="fileNameDisplay" class="file-name-display"></p> <!-- Add this line -->
+    <button id="processButton">Process CSV</button>
+  </div>
+
+  <footer>
+    Made with <span class="heart">&#9829;</span> by Developer Support Team(Motive)
+  </footer>
+</body>
+</html>

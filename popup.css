@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffcccc, #b3d9ff);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #3498db;
+}
+
+button {
+  background: linear-gradient(to right, #4caf50, #8bc34a);
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#fileInput {
+  display: none;
+}
+
+/* ... Your existing CSS ... */
+
+.upload-label {
+  /* background: linear-gradient(to right, #3498db, #9b59b6); */
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.upload-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+/* ... Your existing CSS ... */
+
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.heart {
+  color: #e25555;
+}
